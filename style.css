@@ -13,7 +13,7 @@ body {
   padding-top: 2cm;
   padding-bottom: 2cm;
   height: 5mm;
- }
+}
 
 .topmenu {
   color: lightgray;
@@ -25,7 +25,6 @@ body {
 
 .topmenu:hover {
   color: white;
-  /* Add the styles here */
   font-weight: bold;
   text-decoration: underline;
 }
@@ -36,14 +35,13 @@ body {
 }
 
 .profile_name {
-  font-size: 30px;
+  font-size: 35px;
   float: left;
   padding-left: 2cm;
-  /* Add the styles here */
 }
 
 .profile_name .contact_info {
-  font-size: 15px;
+  font-size: 20px;
   font-style: italic;
   display: flex;
   align-items: center;
@@ -107,7 +105,7 @@ h2 {
 }
 
 .profile_image {
-  width: 550px;
+  width: 280px;
   height: fit-content;
   vertical-align: middle;
   margin: 5px;
@@ -144,7 +142,7 @@ h2 {
   margin-block-start: 8px;
   margin-block-end: 5px;
   font-weight: bold;
-} 
+}
 
 .skills p {
   align-items: center;
@@ -152,7 +150,7 @@ h2 {
   color: gray;
   margin-block-start: 5px;
   margin-block-end: 5px;
-} 
+}
 
 .flex_center {
   display: flex;
@@ -184,6 +182,20 @@ h2 {
 }
 
 .project-card li {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.project-link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.project-link:hover {
+  color: blueviolet;
+  text-decoration: underline;
   font-size: 20px;
   margin-left: 30px;
 }
@@ -283,18 +295,18 @@ h2 {
 /* Recommendation Form */
 
 input, textarea {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-  margin: 10px;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 10px;
   width:100%;
 }
 
 fieldset {
   display: flexbox;
   align-content: center;
-  justify-content: center;  
-  padding: 25px; 
-  margin-left: 50px; 
-  margin-right: 50px;   
+  justify-content: center;
+  padding: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
   border: thin solid white;
   width: 50%;
 }
